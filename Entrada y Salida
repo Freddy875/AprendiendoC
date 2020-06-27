@@ -14,8 +14,20 @@ int main(){
 	
 	float flotante2;
 	
+	char letra;
+	
 	char nombre[50];
 	
+	char nombreCompleto[150];
+	
+	printf("Digite su nombre completo: ");
+	
+	gets(nombreCompleto);
+	
+	printf("Su nombre competo es %s",nombreCompleto);
+	
+	printf("\n");
+
 	printf("Digita un valor entero: ");
 	
 	scanf("%d",&iNumero2);
@@ -26,22 +38,23 @@ int main(){
 	
 	scanf("%f",&flotante2);
 	
-	printf("El valor del flotante es: %.2f\n",flotante2);
+	printf("El valor del flotante es: %f\n",flotante2);
 	
+	/*
+	
+	printf("Digite el valor de una letra: ");
+	
+	scanf("%c",&letra);
+	
+	printf("El valor de la letra es: %c\n",letra);
+
 	printf("Digite su nombre: ");
 	
-	gets(nombre);
+	scanf("%s", &nombre);
 	
 	printf("Su nombre es %s",nombre);
 	
-	char nombreCompleto[150];
-	
-	printf("Digite su nombre completo: ");
-	
-	gets(nombreCompleto);
-	
-	printf("Su nombre competo es %s",nombreCompleto);
+	*/
 	
 	return 0;
-	
 }//fin int main
