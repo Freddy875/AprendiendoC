@@ -31,6 +31,19 @@ int main(){
 	printf("El resultado de la multiplicaci%cn es: %d\n",162, mult);
 	
 	printf("El reusltado de la divisi%cn es: %d\n", 162, div);
+	
+	//Convertir grados Celsius a Grados Fahrenheit
+	
+	float fGradosCelsius = 0, fGradosFahrenheit = 0;
+	
+	printf("Digite los grados Celsius: ");
+	
+	scanf("%f",&fGradosCelsius);
+	
+	fGradosFahrenheit = (fGradosCelsius * 1.8 )+32;
+	
+	printf("%.2f Grados Celsius equivale a %.2f Grados Fahrenheit ", fGradosCelsius, fGradosFahrenheit);
+	
 	return 0;
 	
 }//fin int main
