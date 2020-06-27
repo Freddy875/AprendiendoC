@@ -34,6 +34,14 @@ int main(){
 
 	printf("El valor del caracter es: %c\n",letra);
 	
+	char nombre[50];
+	
+	printf("Digite su nombre: ");
+	
+	scanf("%s",nombre);
+	
+	printf("Su nombr es %s",nombre);
+	
 	return 0;
 	
 }//fin int main
