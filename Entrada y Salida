@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main(){
+	
+	int numero = 10; 
+	
+	float flotante = 15.5;
+	
+	char caracter = 'e';
+	
+	printf("El valor del entero es %d,\n el del flotante es %.1f,\n y el caracter es %c\n", numero,flotante,caracter);
+	
+	int iNumero2;
+	
+	float flotante2;
+	
+	char letra;
+	
+	printf("Digita un valor entero: ");
+	
+	scanf("%d",&iNumero2);
+	
+	printf("El valor del entero es: %d\n",iNumero2);
+	
+	printf("Digita un valor flotante: ");
+	
+	scanf("%f",&flotante2);
+	
+	printf("El valor del flotante es: %.2f\n",flotante2);
+
+	printf("Digita un valor caracter: ");
+		
+	scanf("%c",&letra);
+
+	printf("El valor del caracter es: %c\n",letra);
+	
+	return 0;
+	
+}//fin int main
