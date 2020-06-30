@@ -15,12 +15,18 @@ int main(){
 	
 	gets(cSignoZodiacal);
 	
-	if(strcmp(cSignoZodiacal,"Sagitario") ==0  ){
+	if(strcmp(cSignoZodiacal,"Sagitario") == 0  ){
 		
 		printf("\nTu nombre es: %s",cNombre);
 		
 		printf("\nY somos del mismo Signo Zodicacal: %s",cSignoZodiacal);
 		
+	}else if(strcmp(cSignoZodiacal,"sagitario") == 0 ){
+	
+		printf("\nTu nombre es: %s",cNombre);
+		
+		printf("\nY somos del mismo Signo Zodicacal: %s",cSignoZodiacal);
+	
 	}else{
 		
 		printf("\nTu nombre es: %s",cNombre);
