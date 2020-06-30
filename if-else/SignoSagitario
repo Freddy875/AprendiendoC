@@ -27,7 +27,7 @@ int main(){
 		
 		printf("\nY NO somos del mismo Signo Zodicacal: %s",cSignoZodiacal);
 		
-	}
+	}//fin if-else
 	
 	return 0;
 	
