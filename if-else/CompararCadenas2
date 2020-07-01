@@ -1,0 +1,23 @@
+	gets(cCadena1);
+	
+	printf("\nIngresa la segunda cadena: ");
+	
+	gets(cCadena2);
+	
+	if(strcmp(cCadena1,cCadena2) == 0){
+		
+		printf("\nAmbos nombres son iguales. %s y %s",cCadena1,cCadena2);
+		
+	}else{
+		
+		printf("\nAmbos nombre NO son iguales. %s y %s",cCadena1,cCadena2);
+		
+	}//fin if-else
+	
+	printf("\n");
+	
+	system("PAUSE");
+	
+	return 0;
+	
+}//fin int main
