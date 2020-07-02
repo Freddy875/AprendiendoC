@@ -1,0 +1,24 @@
+//Bucle For primeros 10 numeros
+
+#include <stdio.h>
+int main(void){
+	
+	int iNumero;
+	
+	/*
+	for (iNumero = 1; iNumero <= 10; iNumero++){
+	
+		printf("\nN%cmero %d",163,iNumero);	
+		
+	}
+	*/
+	
+	for (iNumero = 1; iNumero <= 10; iNumero+=1){
+	
+		printf("\nN%cmero %d",163,iNumero);	
+		
+	}
+	
+	return 0;
+	
+}//fin int main
