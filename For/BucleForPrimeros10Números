@@ -17,7 +17,7 @@ int main(void){
 	
 		printf("\nN%cmero %d",163,iNumero);	
 		
-	}
+	}//fin del Bulce for
 	
 	return 0;
 	
