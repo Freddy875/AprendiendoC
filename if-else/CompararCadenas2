@@ -1,3 +1,15 @@
+	//Comparar cadenas
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+	
+	char cCadena1[20], cCadena2[20];
+	
+	printf("Ingresa la primera cadena: ");
+	
 	gets(cCadena1);
 	
 	printf("\nIngresa la segunda cadena: ");
@@ -21,3 +33,4 @@
 	return 0;
 	
 }//fin int main
+			
