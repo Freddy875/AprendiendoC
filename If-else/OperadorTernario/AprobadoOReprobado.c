@@ -12,9 +12,19 @@ int main(){
 	
 	scanf("%f",&fNota);
 	
-	(fNota > 7.5) ? printf("\nEl alumno esta aprobado con una calificaci%cn de %.2f",162,fNota) : 
+	if(fNota > 7.5){
+		
+		puts("\nEl alumno esta aprobado");
+		
+		printf("\nCon la calificaci%cn de %.2f",162,fNota);
 	
-	printf("El alumno esta repobado con una calificaci%cn de %.2f",162,fNota);
+	}else{
+	
+		puts("\nEl alumno esta reprobado");
+		
+		printf("\nCon la calificaci%cn de %.2f",162,fNota);
+	
+	}//fin if-else
 	
 	return 0;
 	

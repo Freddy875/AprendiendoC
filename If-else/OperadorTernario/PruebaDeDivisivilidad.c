@@ -1,7 +1,4 @@
-/*
-Prueba de Divisivilidad 2
-Si el denominador es 0 NO se puede realizar la operación 
-*/
+//Prueba de divisivilidad
 
 #include <stdio.h>
 int main(){
@@ -16,9 +13,16 @@ int main(){
 	
 	scanf("%d",&iNum2);
 	
-	(iNum2 == 0) ? printf("\nERROR.No se puede dividir un entre 0"):
+	if(iNum1 % iNum2 == 0 ) {
 	
-	printf("\nEl resultado de la divisi%cn es: %d",162,iNum1/iNum2);  
+		printf("\nEl n%cmero %d es divisible ente el n%cmero %d",163,iNum1,163,iNum2);
+		
+	
+	}else{
+		
+		printf("\nEl n%cmero %d NO es divisible ente el n%cmero %d",163,iNum1,163,iNum2);
+		
+	}//fin if-esle
 	
 	return 0;
 	
