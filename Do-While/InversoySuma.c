@@ -28,11 +28,9 @@ int main(void){
 		
 		printf("\nEl inverso de tu n%cmero es: %d",163,iNumero);
 		
-		//printf("\nEl inverso de tu n%cmero es: %d",163,-iNumero);
-		
-		//-iNumero;
-		
-		//printf("\nEl Inverso de tu n%cmero es: %d",163,iNumero);
+		/*
+		printf("\nEl inverso de tu n%cmero es: %d",163,-iNumero);
+		*/
 		
 		iSuma += iNumero;
 		
