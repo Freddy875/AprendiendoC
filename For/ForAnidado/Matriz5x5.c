@@ -11,9 +11,9 @@ int main(void){
 	
 	printf("\n");
 	
-	for(x = 1; x <= 5; x++){
+	for(x = 0; x <= 5; x++){
 		
-		for(y = 1; y <=5; y++){
+		for(y = 0; y <=5; y++){
 			
 			printf("[%d,%d]",x,y);
 			
