@@ -1,12 +1,12 @@
 /*
-Este programa usa un menú para que el usuario 
+Este programa usa un menu para que el usuario 
 Seleccione de las operaciones de 
 1. Suma
 2. Resta
-3. División
-4. Multiplicación 
+3. Division
+4. Multiplicacion 
 5. Potencia 
-6. Raíz Cuadrada
+6. Raiz Cuadrada
 */
 
 #include <stdio.h>
