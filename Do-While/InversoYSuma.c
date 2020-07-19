@@ -1,7 +1,7 @@
 /*
-Al ingresar un número entero desde teclado diferente de cero 
+Al ingresar un nÃºmero entero desde teclado diferente de cero 
 Lo multiplica por menos uno 
-y lo hace varias veces hasta que se ingresa un número 
+y lo hace varias veces hasta que se ingresa un nÃºmero 
 mayor de -10 o menor de 10
 Y al final muestra la suma de todos los numeros ingresados  
 */
