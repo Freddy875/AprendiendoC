@@ -21,7 +21,7 @@ int main(void){
 	
 	if(iNumero == 0){
 		
-		printf("\nERROR.El cero es ni positivo ni negativo");
+		printf("\nERROR.El cero NO es ni positivo ni negativo");
 		
 		printf("\nPor lo tanto el cero no tiene inverso");
 		
