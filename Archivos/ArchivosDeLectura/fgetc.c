@@ -22,10 +22,12 @@ int main(void){
 		
 		printf("\nEl contenido del archivo de prueba es: \n\n");
 		
-		while((cCaracter = fgetc(archivo)) != EOF);
+		while((cCaracter = fgetc(archivo)) != EOF){
 			
 			printf("%c",cCaracter);
-		
+			
+		}//fin while
+			
 	}//fin if-else
 	
 	fclose(archivo);
