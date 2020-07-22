@@ -10,7 +10,7 @@ Seleccione de las operaciones de
 */
 
 #include <stdio.h>
-#include  <math.h>
+#include <math.h>
 #include <windows.h>
 
 int main(){
