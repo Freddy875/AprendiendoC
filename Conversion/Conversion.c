@@ -7,6 +7,8 @@ float fReal = 20.00;
 double dDoble = 400.12345;
 
 int main(void){
+
+	//Probamos el convertir un tipo de dato a otro tipo 
 	
 	printf("Caracter / Entero = %d\n",cCaracter/iEntero);
 	//Caracter pasa a Entero o char pasa a int

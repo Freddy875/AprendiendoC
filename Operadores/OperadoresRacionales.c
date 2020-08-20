@@ -2,6 +2,8 @@
 //#include <stdlib.h>
 
 int main(void){
+
+	//Probamos el convertir un tipo de dato a otro tipo 
 	
 	printf("2 == 2 devuelve %d que implica verdadero\n"
 	,2 == 2);

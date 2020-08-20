@@ -4,6 +4,8 @@ int main(void){
 	int iNum1,
 		iNum2,
 		iNum3;
+
+	//Probamos el convertir un tipo de dato a otro tipo 
 	
 	printf("\nDame el primer n%cmero (entero): ",163);
 	

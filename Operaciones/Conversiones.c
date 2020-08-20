@@ -7,6 +7,8 @@ int main(void){
 	float iNumY = 2.2;
 	float iNumZ; //Resultado real
 	int iNumU; //Resultado entero
+
+	//Probamos el convertir un tipo de dato a otro tipo 
 	
 	iNumZ = iNumX + iNumY;//Conversion implicita sin pedir datos
 	
