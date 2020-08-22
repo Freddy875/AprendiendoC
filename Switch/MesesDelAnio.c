@@ -13,7 +13,7 @@ int main(){
 	
 	scanf("%d",&iMes);
 	
-	if(iMes < 0 || iMes >= 13){
+	if(iMes <= 0 || iMes >= 13){
 		
 		printf("\nERROR. El n%cmero del mes debe de se positivo y estar entre el 1 y el 12",163);
 		
