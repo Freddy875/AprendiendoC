@@ -169,7 +169,7 @@ int main(){
 		
 			break;//9
 		
-		}//fin del switch-iCentena
+		}//fin del switch-iDecena
 	
 		
 		switch(iUnidad){
